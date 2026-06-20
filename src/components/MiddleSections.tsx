@@ -5,7 +5,7 @@ export function HowItWorks() {
   const [ref, isIntersecting] = useIntersectionObserver({ threshold: 0.2 });
 
   return (
-    <section id="how-it-works" className="relative py-24 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10 overflow-hidden">
+    <section id="how-it-works" className="relative py-12 md:py-16 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10 overflow-hidden">
       
       {/* Background Fillers */}
       <div className="absolute inset-0 z-[-1] opacity-20 pointer-events-none" style={{ backgroundImage: 'repeating-linear-gradient(45deg, rgba(201,168,76,0.05) 0px, rgba(201,168,76,0.05) 1px, transparent 1px, transparent 20px)' }} />
@@ -14,7 +14,7 @@ export function HowItWorks() {
       <MicroGlowOrb className="top-[5%] left-[5%] bg-radial-a" />
       <MicroGlowOrb className="bottom-[5%] right-[5%] bg-radial-c" />
 
-      <div className="flex flex-col items-center text-center mb-16 relative z-10">
+      <div className="flex flex-col items-center text-center mb-10 relative z-10">
         <div className="bento-glass !py-1 !px-4 !rounded-full mb-4 animate-eyebrowIn">
           <span className="text-xs font-bold text-[--text-secondary] tracking-[2px] uppercase">The Process</span>
         </div>
@@ -65,10 +65,10 @@ export function HowItWorks() {
 
 export function AyahSpotlight() {
   return (
-    <section className="relative py-24 px-6 max-w-7xl mx-auto w-full flex flex-col z-10">
+    <section className="relative py-12 md:py-16 px-6 max-w-7xl mx-auto w-full flex flex-col z-10">
       <div className="absolute inset-0 bg-[--color-green] opacity-[0.03] z-[-1]" />
       
-      <div className="w-full relative bento-glass !bg-[rgba(45,106,79,0.04)] !border-[rgba(45,106,79,0.1)] !p-8 md:!p-16 flex flex-col items-center text-center overflow-hidden">
+      <div className="w-full relative bento-glass !bg-[rgba(45,106,79,0.04)] !border-[rgba(45,106,79,0.1)] !p-6 md:!p-12 flex flex-col items-center text-center overflow-hidden">
         {/* Background glow */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(45,106,79,0.1)_0%,transparent_70%)] pointer-events-none z-0" />
         

@@ -27,7 +27,7 @@ export function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="relative py-24 px-0 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10">
+    <section id="testimonials" className="relative py-12 md:py-16 px-0 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10">
       
       {/* Background Pattern */}
       <div 
@@ -37,7 +37,7 @@ export function Testimonials() {
         }}
       />
 
-      <div className="flex flex-col items-center text-center mb-16 px-6">
+      <div className="flex flex-col items-center text-center mb-10 px-6">
         <div className="bento-glass !py-1 !px-4 !rounded-full mb-4 animate-eyebrowIn">
           <span className="text-xs font-bold text-[--text-secondary] tracking-[2px] uppercase">Student Voices</span>
         </div>
@@ -104,8 +104,8 @@ Message: ${formData.message}`;
   };
 
   return (
-    <section id="contact" className="relative py-24 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10">
-      <div className="flex flex-col items-center text-center mb-16">
+    <section id="contact" className="relative py-12 md:py-16 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10">
+      <div className="flex flex-col items-center text-center mb-10">
         <div className="bento-glass !py-1 !px-4 !rounded-full mb-4 animate-eyebrowIn">
           <span className="text-xs font-bold text-[--text-secondary] tracking-[2px] uppercase">Get Started</span>
         </div>

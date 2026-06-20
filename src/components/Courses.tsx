@@ -72,7 +72,7 @@ export function Courses() {
   ];
 
   return (
-    <section id="courses" className="relative py-24 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10">
+    <section id="courses" className="relative py-12 md:py-16 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10">
       
       {/* Decorative SVG Pattern Background */}
       <div 
@@ -83,7 +83,7 @@ export function Courses() {
       />
       <FloatingArabic letter="ﻥ" className="bottom-[10%] left-[5%] text-[180px]" delay="7s" />
 
-      <div className="flex flex-col items-center text-center mb-16">
+      <div className="flex flex-col items-center text-center mb-10">
         <div className="bento-glass !py-1 !px-4 !rounded-full mb-4 animate-eyebrowIn">
           <span className="text-xs font-bold text-[--text-secondary] tracking-[2px] uppercase">Our Curriculum</span>
         </div>
@@ -118,7 +118,7 @@ export function Courses() {
               </p>
               
               <div className="flex-grow">
-                <div className="flex flex-wrap gap-2 mb-8">
+                <div className="flex flex-wrap gap-2 mb-5">
                   {course.topics.map((topic, idx) => (
                     <span key={idx} className="inline-flex items-center gap-1.5 text-xs font-semibold text-[--text-secondary] bg-[rgba(0,0,0,0.03)] border border-[rgba(0,0,0,0.04)] px-3 py-1.5 rounded-md">
                       <span className="w-1 h-1 rounded-full bg-[--color-gold]"></span>

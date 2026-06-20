@@ -3,7 +3,7 @@ import { BentoBox, FloatingArabic, MicroGlowOrb } from './Shared';
 
 export function WhyAsar() {
   return (
-    <section id="why-asar" className="relative py-24 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10">
+    <section id="why-asar" className="relative py-12 md:py-16 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col z-10">
       
       {/* Decorative SVG Pattern Background */}
       <div 
@@ -14,7 +14,7 @@ export function WhyAsar() {
       />
       <FloatingArabic letter="ﻡ" className="top-[10%] right-[10%] text-[150px]" delay="2s" />
 
-      <div className="flex flex-col items-center text-center mb-16">
+      <div className="flex flex-col items-center text-center mb-10">
         <div className="bento-glass !py-1 !px-4 !rounded-full mb-4 animate-eyebrowIn">
           <span className="text-xs font-bold text-[--text-secondary] tracking-[2px] uppercase">Why Choose Us</span>
         </div>

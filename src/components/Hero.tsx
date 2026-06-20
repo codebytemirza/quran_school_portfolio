@@ -37,7 +37,7 @@ function CounterUp({ end, suffix = '', duration = 1800 }: { end: number; suffix?
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] flex flex-col items-center justify-center pt-28 pb-12 overflow-hidden px-4 md:px-6 lg:px-12 max-w-[1440px] mx-auto w-full z-10">
+    <section className="relative min-h-[max(60svh,450px)] flex flex-col items-center justify-center pt-24 pb-4 overflow-hidden px-4 md:px-6 lg:px-12 max-w-[1440px] mx-auto w-full z-10">
       <ParticleConstellation />
       
       <FloatingArabic letter="ﷲ" className="top-[20%] left-[5%] text-[120px]" delay="0s" />
@@ -97,7 +97,7 @@ export function Hero() {
         </div>
 
         {/* Right Column - Hero Image */}
-        <div className="lg:col-span-4 relative w-full h-[450px] lg:h-auto lg:min-h-[640px] animate-heroReveal flex" style={{ animationDelay: '0.4s' }}>
+        <div className="lg:col-span-4 relative w-full h-[350px] lg:h-auto lg:min-h-[500px] animate-heroReveal flex" style={{ animationDelay: '0.4s' }}>
           <div className="bento-glass w-full h-full !p-2 relative overflow-hidden group flex-grow">
             <div className="absolute inset-0 bg-gradient-to-t from-[--bg-void] via-transparent to-transparent z-10 pointer-events-none opacity-80" />
             <div className="absolute inset-0 bg-[rgba(201,168,76,0.05)] group-hover:bg-transparent transition-colors duration-700 z-0 pointer-events-none" />
